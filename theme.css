@@ -24,3 +24,11 @@
   flex: 1 1 auto;
   background-color: blue;
 }
+.nav ul{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav li:hover{
+  background-color:#99ccff;
+}
