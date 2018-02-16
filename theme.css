@@ -2,8 +2,8 @@
   display:flex;
   flex-direction:column;
   flex: 1 1 auto;
-  border: solid black;
-  margin:auto;
+  border:0;
+  margin:0;
 
 }
 .header{
@@ -11,8 +11,7 @@
   font-size: 20;
   position:relative;
   float:left;
-  background-color: #c2c2a3;
-  border-bottom: 10px solid #009999;
+  border-bottom: 10px solid #76323f;
   background-color:#f5f2eb;
 }
 .header img{
@@ -32,22 +31,33 @@
 .container > div:nth-child(even){
   flex: 3 1 auto;
   width:1px;
-  background-color: lime;
+  background-color: #D7CEC7;
 }
 .container > div:nth-child(odd){
   flex: 1 1 auto;
   width:1px;
-  background-color: blue;
+  background-color:#C09f80;
 }
 .nav ul{
+  position:relative;
   list-style-type: none;
     margin: 0;
     padding: 0;
 }
-.nav li:hover{
-  background-color:#99ccff;
-}
+.nav li{
 
+  float:left;
+  width: 100%;
+}
+.nav li:hover{
+  background-color:#565656;
+}
+.article{
+  font-family:sans-serif;
+}
+.article h1{
+  margin:0;
+}
 .article img{
   width:250px;
   position: relative;
