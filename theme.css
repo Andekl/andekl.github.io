@@ -1,10 +1,23 @@
-.header{
+.site{
   display:flex;
   flex-direction:column;
   flex: 1 1 auto;
   border: solid black;
   margin:auto;
 
+}
+.header{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 20;
+  position:relative;
+  float:left;
+  background-color: #c2c2a3;
+  border-bottom: 10px solid #009999;
+  background-color:#f5f2eb;
+}
+.header img{
+  max-width: 200px;
+  position: relative;
 }
 .footer{
   position:relative;
@@ -17,11 +30,13 @@
   }
 
 .container > div:nth-child(even){
-  flex: 4 2 auto;
+  flex: 3 1 auto;
+  width:1px;
   background-color: lime;
 }
 .container > div:nth-child(odd){
   flex: 1 1 auto;
+  width:1px;
   background-color: blue;
 }
 .nav ul{
@@ -33,6 +48,29 @@
   background-color:#99ccff;
 }
 
-.rest img{
-  max-width: 100%;
+.article img{
+  width:250px;
+  position: relative;
+  float: left;
 }
+
+  #pigu{
+    margin:0px;
+  }
+  #pigu img{
+    max-width: 100px;
+    position: relative;
+    float:left;
+  }
+  .pigu-text{
+    position: relative;
+    float:top;
+  }
+  #pigu ul{
+    list-style-type: none;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    position: relative;
+    float: left;
+  }
