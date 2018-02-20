@@ -60,30 +60,49 @@
 .article h1{
   margin:0;
 }
+.rest{
+  border-left:solid #f1f1f1 20px;
+
+}
 .article img{
   width:250px;
   position: relative;
   float: left;
 }
-  #profilepic{
-    margin:0px;
-  }
-  #profilepic img{
-    max-width: 100px;
-    position: relative;
-    float:left;
-  }
-  .profiletext{
-    position: relative;
-    float:top;
-    margin:0px;
-    border:0px;
-  }
-  #profilepic ul{
-    list-style-type: none;
-    margin: 0;
-    margin-top: 20px;
-    padding: 0;
-    position: relative;
-    float: left;
-  }
+.profile{
+  position: sticky;
+  top:0px;
+  border:solid black 1px;
+  height: 151px;
+}
+.profile img{
+  margin:0px;
+  border:0px;
+  position: relative;
+  float: left;
+  width: 100px;
+}
+.all-text{
+  display: block;
+}
+
+.profile p.upper-text{
+  position: relative;
+  margin-top: 0px;
+  border-top: 0px;
+  border-bottom: 120px;
+}
+.profile p.lower-text{
+  position: relative;
+  display: inline;
+  position: absolute;
+  bottom: 0;
+  margin: 0px;
+  border: 0px;
+}
+
+.profile ul{
+  position: relative;
+  list-style-position: inside;
+  list-style-type:none;
+}
