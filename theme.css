@@ -45,11 +45,11 @@
     padding: 0;
 }
 .nav li{
-
   float:left;
   width: 100%;
 }
 .nav li:hover{
+  color: #f5f2eb;
   background-color:#565656;
 }
 .article{
