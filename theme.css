@@ -9,7 +9,7 @@
 .header{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 20;
-  position:relative;
+  position: relative;
   float:left;
   border-bottom: 10px solid #76323f;
   background-color:#f5f2eb;
@@ -38,8 +38,10 @@
   width:1px;
   background-color:#C09f80;
 }
+
 .nav ul{
-  position:relative;
+  position: sticky;
+  top:0px;
   list-style-type: none;
     margin: 0;
     padding: 0;
@@ -63,20 +65,21 @@
   position: relative;
   float: left;
 }
-
-  #pigu{
+  #profilepic{
     margin:0px;
   }
-  #pigu img{
+  #profilepic img{
     max-width: 100px;
     position: relative;
     float:left;
   }
-  .pigu-text{
+  .profiletext{
     position: relative;
     float:top;
+    margin:0px;
+    border:0px;
   }
-  #pigu ul{
+  #profilepic ul{
     list-style-type: none;
     margin: 0;
     margin-top: 20px;
