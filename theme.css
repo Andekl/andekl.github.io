@@ -70,9 +70,9 @@
   float: left;
 }
 .profile{
+  display: block;
   position: sticky;
   top:0px;
-  border:solid black 1px;
   height: 151px;
 }
 .profile img{
@@ -106,3 +106,43 @@
   list-style-position: inside;
   list-style-type:none;
 }
+
+@media (max-width: 700px) {
+     .header, .container, .container > div:nth-child(even), .container > div:nth-child(odd), .footer{
+       width: 100%;
+     }
+     .container {
+       flex-direction: column;
+     }
+     .container > div:nth-child(odd){
+       margin: 0px;
+     }
+
+     .nav ul{
+       position: relative;
+       float:left
+     }
+     .nav li{
+       display: block;
+       margin:0px;
+       border:0px;
+       margin-bottom: 0px;
+       width:100px;
+     }
+
+     .rest{
+       border: 0px;
+       margin: 0px;
+     }
+
+      .lower-text ul{
+       position: relative;
+       float: left;
+       margin-top: 0px;
+       margin: 15px;
+     }
+     .footer{
+       height: 40px;
+       font-style: italic;
+     }
+ }
